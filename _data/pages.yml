@@ -1,7 +1,7 @@
 pages:
   - {name: 'AboutMe', url: 'about.html'}
   - {name: 'Project', url: 'project.html'}
-  - {name: 'CV', url: 'https://github.com/PandaSekh/Jekyll-YAMT'}
-  - {name: 'Blog', url: 'blog.html'}
+  - {name: 'CV', url: './assets/CV.pdf'}
+  - {name: 'Blog', url: ''}
   - {name: 'Gallery', url: 'gallery.html'}
   - {name: 'Archive', url: 'archive.html'}

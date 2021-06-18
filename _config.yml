@@ -18,8 +18,8 @@ paginate_path: "/page:num/"
 
 #SEO
 twitter:
-  username: pandasekh
-  card: summary
+  username:
+  card:
 facebook:
   app_id: # Facebook app ID for Facebook insights
   publisher: # Facebook page URL or ID of the publishing entity
@@ -27,9 +27,7 @@ facebook:
 logo: /assets/img/logo.jpg
 social:
   links: #List your social links here
-    - https://twitter.com/PandaSekh
-    - https://www.github.com/pandasekh
-    - https://www.linkedin.com/in/alessio-franceschi/
+    - https://github.com/TaKeTube
 webmaster_verifications:
   google: 
   bing: 
