@@ -2,7 +2,7 @@
 title: MIT 18.03 Some Complement
 layout: post
 categories: [ODE, Math, MIT 18.06 Differential Equation]
-image: 
+image: /assets/img/MIT18.06/cover.jpg
 description: "MIT 18.03 Some Complement"
 customexcerpt: "Notes for MIT opencourse 18.03 differential equation"
 ---
