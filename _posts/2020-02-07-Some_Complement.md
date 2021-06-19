@@ -1,4 +1,12 @@
-### Some Complement
+---
+title: MIT 18.03 Some Complement
+layout: post
+categories: [ODE, Math, MIT 18.06 Differential Equation]
+image: 
+description: "MIT 18.03 Some Complement"
+customexcerpt: "Notes for MIT opencourse 18.03 differential equation"
+---
+
 
 #### 稳定性
 
@@ -10,7 +18,7 @@
 
 的**赫维兹矩阵**
 
-![Routh-Hurwitz](D:\GZM\study\ELSE\MIT DE\NOTES\Complement\Routh-Hurwitz.png)
+![Routh-Hurwitz](\assets\img\MIT18.06\Complement\Routh-Hurwitz.png)
 
 的行列式的所有主子式  principal minors 为正则系统稳定
 
@@ -59,9 +67,11 @@ If $p(D)$ is a constant-coefﬁcient differential operator and $p(D)x = q(t)$, t
 如果阻尼过大 则不会有peak
 
 通过求导 可得
+
 $$
 \omega_r = \sqrt{\frac{k}{m}-\frac{b^2}{2m^2}}
 $$
+
 **spring-driven mechanical system 共振频率和阻尼有关**
 
 **dashpot-driven mechanical system 对于缓冲器驱动系统**
@@ -75,6 +85,7 @@ $$
 $x''+bx'+kx = ky+by'$
 
 共振频率和阻尼有关 有相位差
+
 $$
 g(\omega) = \sqrt{\frac{k^2+b^2\omega^2}{(k-m\omega^2)^2+b^2}}
 $$
@@ -107,7 +118,7 @@ pre-initial conditions (at 0−) and postinitial conditions (at 0+)
 
 exponential order a
 
-$|f(t)| < Me^{at}$
+$\|f(t)\| < Me^{at}$
 
 #### 解析延拓 analytic continuation
 
@@ -124,7 +135,9 @@ $$
 #### 指数增长率 exponential growth rate
 
 最小的a
+
 $$
 \lim\limits_{t \to \infty}\frac{f(t)}{e^{bt}} = 0\quad \text{for all b > a}
 $$
+
 f(t)的指数增长率是其拉普拉斯变换极点的最大实部

@@ -36,3 +36,14 @@
         {%- include analytics.html -%}
     {% endif %}
     <!-- End Google Analytics -->
+
+    <!-- MathJax Plugin -->
+    {% if site.data.settings.mathjax.active %}
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@2.7.8/unpacked/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+    {% endif %}
+    <!-- End MathJax Plugin -->
