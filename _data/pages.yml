@@ -2,6 +2,6 @@ pages:
   - {name: 'AboutMe', url: 'about.html'}
   - {name: 'Project', url: 'project.html'}
   - {name: 'CV', url: './assets/CV.pdf'}
-  - {name: 'Blog', url: ''}
+  - {name: 'Blog', url: '.'}
   - {name: 'Gallery', url: 'gallery.html'}
   - {name: 'Archive', url: 'archive.html'}
