@@ -4,4 +4,4 @@
 
 social:
   - {icon: 'github', type: "brand", link: 'https://github.com/TaKeTube'}
-  - {icon: 'envelope', type: "solid", link: 'zimug2@illinois.edu'}
+  - {icon: 'envelope', type: "solid", link: 'mailto:zimug2@illinois.edu'}
