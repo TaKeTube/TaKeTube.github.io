@@ -1,9 +1,9 @@
 ---
-title: Uniformly Sample on a Manifold - 1.Theorem
+title: Uniformly Sample on a Manifold - 1.Rationale
 layout: post
 categories: [Geometry, Probability, Math]
 image: /assets/img/SampleOnManifold/cover.jpg
-description: "Uniformly Sample on a Manifold - 1.Theorem"
+description: "Uniformly Sample on a Manifold - 1.Rationale"
 customexcerpt: "A general method to sample uniformly on a manifold embedded in R^n"
 ---
 
