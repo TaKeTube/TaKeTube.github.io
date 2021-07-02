@@ -138,10 +138,6 @@
   width: 100%;
 }
 
-/* .item h2 {
-  padding: 8px 0;
-} */
-
 @media screen and (min-width: 1024px) and (max-width: 1439.98px) {
   .masonry {
     width: 96vw;
@@ -162,5 +158,137 @@
   .masonry {
     width: 96vw;
     columns: 1;
+  }
+}
+
+.pop-img{
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.pop-img:hover{
+  opacity: 0.7;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 50px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  /* background-color: rgb(0,0,0); */ /* Fallback color */
+  /* background-color: rgba(0,0,0,0.8); */ /* Black w/ opacity */
+  background-color: #ebebeb;
+  -webkit-animation-name: fade-out;
+  -webkit-animation-duration: 0.3s;
+  animation-name: fade-out;
+  animation-duration: 0.3s;
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 700px;
+  max-height: 600px;
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #bbb;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.modal-content, #caption { 
+  -webkit-animation-name: float-up;
+  -webkit-animation-duration: 0.6s;
+  animation-name: float-up;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+@-webkit-keyframes float-up {
+  from {
+    -webkit-visibility:hidden;
+    -webkit-opacity: 0;
+    -webkit-transform: translateY(100px);
+  }
+  to {
+    -webkit-visibility:visible;
+    -webkit-opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@keyframes float-up {
+  from{
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes fade-in {
+  from {-webkit-opacity:0} 
+  to {-webkit-opacity:1}
+}
+
+@keyframes fade-in {
+  from {opacity:0}
+  to {opacity:1}
+}
+
+@-webkit-keyframes fade-out {
+  from {-webkit-opacity:1;} 
+  to {-webkit-opacity:0;}
+}
+
+@keyframes fade-out {
+  from {opacity:1;}
+  to {opacity:0;}
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #bbb;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #f1f1f1;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px){
+  .modal-content {
+      width: 100%;
   }
 }
