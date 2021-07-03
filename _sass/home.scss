@@ -15,6 +15,10 @@
         height: auto;
         max-height: 450px;
         @include border(7px);
+        transition: 0.3s;
+    }
+    img:hover{
+        opacity: 0.8;
     }
 }
 
@@ -32,5 +36,13 @@
 
 .post-info{
     font-size: 1rem;
+    color: $base;
+}
+
+#post-title a{
+    transition: 0.3s;
+}
+
+#post-title a:hover{
     color: $base;
 }

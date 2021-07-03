@@ -238,7 +238,7 @@ title: Gallery
 
 <div id="imgModal" class="modal">
     <span class="close" onclick="document.getElementById('imgModal').style.display='none'">&times;</span>
-    <img class="modal-content" id="imgTemp">
+    <img class="modal-content" id="imgJump">
     <div id="caption"></div>
 </div>
 
@@ -250,12 +250,16 @@ title: Gallery
     modal.addEventListener("webkitAnimationEnd", modalEnd, false);
     modal.addEventListener("animationend", modalEnd, false);
 
-    var modalImg = document.getElementById("imgTemp");
+    var modalImg = document.getElementById("imgJump");
     var captionText = document.getElementById("caption");
 
     for(var i = 0; i < _imgs.length; i++){
         var img = _imgs[i];
         // document.write(img.src+"<br>");
+        // document.write(img.class+"<br>");
+        if(img.id == "imgJump"){
+            continue;
+        }
         img.onclick = function(){
             modal.style.webkitAnimationName = "fade-in";
             modal.style.AnimationName = "fade-in";
