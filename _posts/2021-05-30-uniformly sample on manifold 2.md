@@ -15,6 +15,7 @@ customexcerpt: "A general method to sample uniformly on a manifold embedded in R
 
 
 
+
 在上文中，我们给出了一个在嵌入$\mathbb{R}^n$中的子流形上均匀采样的方法。
 
 在本文中，我们会给出一些例子来具体说明这个方法。
