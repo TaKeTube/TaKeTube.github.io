@@ -4,7 +4,7 @@ layout: post
 categories: [Geometry, Probability, Math]
 image: /assets/img/SampleOnManifold/cover.jpg
 description: "Uniformly Sample on a Manifold - 1.Rationale"
-customexcerpt: "A general method to sample uniformly on a manifold embedded in R^n"
+customexcerpt: "A self-explored general method to sample uniformly on a manifold embedded in R^n"
 ---
 
 # 流形上的均匀采样(一)——理论
