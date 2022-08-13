@@ -4,4 +4,5 @@
 
 social:
   - {icon: 'github', type: "brand", link: 'https://github.com/TaKeTube'}
-  - {icon: 'envelope', type: "solid", link: 'mailto:zimug2@illinois.edu'}
+  - {icon: 'linkedin', type: "brand", link: 'https://www.linkedin.com/in/zimu-guan-354b1621a/'}
+  - {icon: 'envelope', type: "solid", link: 'mailto:z6guan@ucsd.edu'}
