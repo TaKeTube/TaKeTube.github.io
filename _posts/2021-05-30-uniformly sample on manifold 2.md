@@ -378,7 +378,7 @@ $$
 \begin{cases}
 x = 2a\sqrt[3]{\xi_1}\sqrt{\xi_2(1-\xi_2)}cos(2\pi\xi_3)\\
 y = 2a\sqrt[3]{\xi_1}\sqrt{\xi_2(1-\xi_2)}sin(2\pi\xi_3)\\
-z = 2a\sqrt[3]{\xi_1}(1-2\xi_2)
+z = a\sqrt[3]{\xi_1}(1-2\xi_2)
 \end{cases}\\
 $$
 

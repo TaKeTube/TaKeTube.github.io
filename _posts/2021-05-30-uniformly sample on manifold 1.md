@@ -38,7 +38,7 @@ $$
 $$
 \begin{cases}
 u= 1-\sqrt{\xi_1}\\
-v= \xi_2
+v= \sqrt{\xi_1}\xi_2
 \end{cases}\\
 \mathbf{p} = u\mathbf{v_0}+(1-u-v)\mathbf{v_1}+v\mathbf{v_2}
 $$
@@ -472,5 +472,14 @@ $$
    $f_{\vec{X}}(\vec x) = \frac{\sqrt{det(J_\gamma^TJ_\gamma)}}{\int_\Omega \sqrt{det(J_\gamma^TJ_\gamma)}\ dx^n},\vec x \in \Omega$
 
 4. 通过常用的方法，如逆采样法，拒绝采样法，MCMC等
+
+---
+
+时隔两年的更新：
+
+- 在这里我们只是阐述了一种如何均匀采样的算法。实际上对于任意的分布我们都可以用上述的变换来达成采样的目的。变换系数就是$\sqrt{det(J_\gamma^TJ_\gamma)}$
+- MCMC、拒绝采样，或者是resampled impotence sampling (RIS) 等方法都不需要目标分布是归一化 (normalized) 的，所以如果碰到${\int_\Omega \sqrt{det(J_\gamma^TJ_\gamma)}\ dx^n}$不好解析积分时，用上述方法不normalized pdf也是没有关系的。另外一种办法是数值积分，由于${\int_\Omega \sqrt{det(J_\gamma^TJ_\gamma)}\ dx^n}$是预先计算的，所以并不会影响到真正采样时的效率，下一篇文章中也给出了数值积分的例子。
+
+---
 
 下一篇文章会给出一些栗子来具体说明这个方法。
